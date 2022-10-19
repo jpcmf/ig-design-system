@@ -1,4 +1,4 @@
-# Lab Design System
+# Ig Design System
 
 ### install
 
@@ -11,6 +11,8 @@ npm install
 ```
 npm run dev
 ```
+
+# Annotations
 
 ### configure tailwind
 
