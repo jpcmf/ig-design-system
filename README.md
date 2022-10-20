@@ -3,7 +3,7 @@
 ### install
 
 ```
-npm install
+npm i
 ```
 
 ### run app
@@ -41,13 +41,13 @@ npx sb init --builder @storybook/builder-vite --use-npm
 ### configure clsx
 
 ```
-npm install --save clsx
+npm i --save clsx
 ```
 
 ### configure @radix-react-slot
 
 ```
-npm install @radix-ui/react-slot
+npm i @radix-ui/react-slot
 ```
 
 ### configure icons
@@ -59,19 +59,19 @@ npm i phosphor-react
 ### configure @radix-ui/react-checkbox
 
 ```
-npm install @radix-ui/react-checkbox
+npm i @radix-ui/react-checkbox
 ```
 
 ### configure @storybook/storybook-deployer
 
 ```
-npm i @storybook/storybook-deployer --save-dev
+npm i -D @storybook/storybook-deployer
 ```
 
 ### configure accessibility @storybook/addon-a11y
 
 ```
-npm install @storybook/addon-a11y
+npm i @storybook/addon-a11y
 ```
 
 ### gh cmds
@@ -79,5 +79,12 @@ npm install @storybook/addon-a11y
 ```
 gh repo create
 gh repo view -w
+
+```
+
+### configure @storybook/addon-interactions _(tests with storybook)_
+
+```
+npm i -D @storybook/addon-interactions @storybook/jest @storybook/testing-library @storybook/test-runner
 
 ```
