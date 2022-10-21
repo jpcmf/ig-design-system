@@ -1,5 +1,9 @@
 # Ig Design System
 
+<p align="center">
+    <img src="./.github/ig-lab.png"/>
+</p>
+
 ### install
 
 ```
@@ -91,4 +95,14 @@ gh repo view -w
 
 ```
 npm i -D @storybook/addon-interactions @storybook/jest @storybook/testing-library @storybook/test-runner
+```
+
+### configure msw-storybook-addon
+
+```
+npm i -D msw msw-storybook-addon
+```
+
+```
+npx msw init public/
 ```
