@@ -18,6 +18,12 @@ npm run dev
 npm run storybook
 ```
 
+### run storybook tests
+
+```
+npm run test-storybook -- --watch
+```
+
 ### run storybook build
 
 ```
@@ -53,7 +59,7 @@ npm i @radix-ui/react-slot
 ### configure icons
 
 ```
-npm i phosphor-react
+npm i phosphor-reacts
 ```
 
 ### configure @radix-ui/react-checkbox
@@ -79,12 +85,10 @@ npm i @storybook/addon-a11y
 ```
 gh repo create
 gh repo view -w
-
 ```
 
 ### configure @storybook/addon-interactions _(tests with storybook)_
 
 ```
 npm i -D @storybook/addon-interactions @storybook/jest @storybook/testing-library @storybook/test-runner
-
 ```
